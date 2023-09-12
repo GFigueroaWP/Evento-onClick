@@ -1,0 +1,86 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    padding-inline: 8%;
+}
+nav {
+    background-color: #bbbb;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 3%;
+}
+.loginButton {
+    height: 50%;
+    width: 100px;
+    background-color: #2b78e4;
+    border: 2px solid black;
+    box-shadow: 3px 3px 0px 0px black;
+    color: white;
+    cursor: pointer;
+}
+.content {
+    display: flex;
+    margin-top: 30px;
+}
+.definitions {
+    flex: 2;
+    margin-right: 30px;
+}
+.definition {
+    height: 160px;
+    border: 3px solid black;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.word {
+    font-size: 40px;
+    font-weight: 700;
+}
+.wordType {
+    font-size: 30px;
+    font-weight: lighter;
+}
+.plural {
+    font-size: 15px;
+    font-weight: lighter;
+}
+.likes {
+    margin-top: 10px;
+    height: 30px;
+    width: 75px;
+    background-color: #ffd966;
+    border: 2px solid black;
+    box-shadow: 3px 3px 0px 0px black;
+    color: black;
+    cursor: pointer;
+}
+.info {
+    flex: 1;
+    text-align: center;
+}
+.description {
+    flex: 2;
+}
+.side {
+    flex: 1;
+}
+.addDefinition {
+    border: 3px solid black;
+    padding: 10px;
+}
+.definitionBtn {
+    margin-top: 10px;
+    height: 30px;
+    width: 90%;
+    background-color: #93c47d;
+    border: 2px solid black;
+    box-shadow: 3px 3px 0px 0px black;
+    color: black;
+    cursor: pointer;
+}
